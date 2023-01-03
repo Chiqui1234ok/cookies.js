@@ -44,5 +44,5 @@ console.log(cookie);
 
 ### Ejemplo
 ```
-eraseCookie('pepe'); // Elimina a la cookie 'pepe' del ejemplo anterior
+removeCookie('pepe'); // Elimina a la cookie 'pepe' del ejemplo anterior
 ```
