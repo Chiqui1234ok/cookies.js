@@ -38,7 +38,7 @@ console.log(cookie);
 **Salida**: "salta por todo el jardín"
 
 
-## Uso de eraseCookie(name)
+## Uso de removeCookie(name)
 
 * @param name, de preferencia, espera un string (cadena de texto). Es el nombre de la cookie a eliminar.
 
