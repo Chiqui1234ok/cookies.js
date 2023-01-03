@@ -21,7 +21,8 @@ function getCookie(name) {
     return false;
 }
 
-function removeCookie(name) {   
-    document.cookie = name+'=; Max-Age=-99999999;';  /* Con una expiración negativa o anterior a la actual, la cookie se borra */
+function removeCookie(name) { 
+    let cookie = getCookie(name);
+    document.cookie = `${name}=${cookie}; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/`;
     return true;
 }
